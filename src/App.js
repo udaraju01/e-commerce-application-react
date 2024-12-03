@@ -38,7 +38,7 @@ function App() {
       <CompareProvider>
           <WishlistProvider>
             <CartProvider>
-              <BrowserRouter>
+              <BrowserRouter basename="/e-commerce-application-react">
                 <Routes>
                   <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
